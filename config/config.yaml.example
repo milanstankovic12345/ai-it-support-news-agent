@@ -1,0 +1,15 @@
+agent:
+  name: AI IT Support News Agent
+
+model:
+  provider: nvidia
+  name: nvidia/nemotron-3-super-120b-a12b
+
+web:
+  search_backend: ddgs
+
+schedule:
+  interval: "every 6 hours"
+
+notifications:
+  telegram: true
